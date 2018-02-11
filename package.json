@@ -1,0 +1,20 @@
+{
+    "name": "game-of-life",
+    "version": "0.1.0",
+    "description": "",
+    "keywords": [],
+    "author": "Pascal Hüttermann (https://github.com/nemoxps)",
+    "license": "MIT",
+    "main": "src/index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^4.15.0",
+        "eslint-config-nemoxps": "nemoxps/eslint-config-nemoxps#semver:^0.5.0"
+    },
+    "scripts": {
+        "test:lint": "eslint ./",
+        "test": "npm run --silent test:lint"
+    },
+    "repository": "nemoxps/game-of-life",
+    "bugs": "https://github.com/nemoxps/game-of-life/issues"
+}
